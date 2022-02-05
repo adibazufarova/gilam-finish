@@ -1,0 +1,123 @@
+footer {
+  background: rgba(14, 37, 89, 1);
+}
+
+.footer__container {
+  display: flex;
+  /* justify-content: space-between; */
+  padding-top: 50px;
+  padding-bottom: 28px;
+}
+
+.footer__item {
+  display: flex;
+  margin-top: 32.8px;
+}
+
+.footer__item li {
+  display: inline;
+  /* margin-right: 20px; */
+  font-size: 15px;
+  font-weight: 500;
+}
+.footer__item a {
+  color: white;
+}
+
+.footer__messenger {
+  padding-left: 166px;
+}
+
+.footer__telegram,
+.footer__instagram {
+  display: flex;
+}
+
+.instagram__title,
+.telegram__title {
+  padding-left: 6px;
+}
+
+.instagram__title span,
+.telegram__title span {
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+
+.instagram__title a,
+.telegram__title a {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(255, 202, 66, 1);
+}
+
+.footer__telegram {
+  margin-top: 15px;
+}
+
+.footer__contact__address {
+  margin-left: 122px;
+}
+
+.footer__contact__address p {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(180, 194, 247, 1);
+}
+
+.footer__contact span {
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+
+.footer__contact a {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 202, 66, 1);
+}
+
+.footer__addess {
+  margin-top: 21px;
+}
+
+.footer__addess span {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+.footer__info {
+  margin-left: 66px;
+}
+.footer__info button {
+  height: 50px;
+  width: 280px;
+  border-radius: 60px;
+  background: linear-gradient(180deg, #ffe299 0%, #ffbb0c 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer__info button {
+  cursor: pointer;
+  background: #f7ca5b;
+}
+
+.footer__info button svg {
+  margin-left: 13.35px;
+}
+
+.footer__info div {
+  margin-top: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}

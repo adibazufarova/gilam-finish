@@ -1,0 +1,124 @@
+.questions {
+  margin-top: 90px;
+  background: #fafbff;
+  padding-top: 60px;
+  padding-bottom: 83px;
+}
+.questions__title {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  margin-bottom: 66px;
+}
+
+.questions__body {
+  display: flex;
+}
+.questions__left {
+  width: 70%;
+  padding-right: 70px;
+}
+.questions__right {
+  width: 30%;
+}
+
+.questions__info {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.questions__info--black {
+  color: black;
+}
+.questions__info--gray {
+  color: #555555;
+}
+.questions__info--blue {
+  color: #1f56d5;
+  font-weight: 600;
+}
+
+.questions__item {
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+.questions__item-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.03));
+}
+
+.questions__item-text {
+  padding: 20px 30px 1px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: none;
+  transition: all 1s ease;
+}
+.questions__item-text.active {
+  display: block;
+}
+
+.questions__item-text p {
+  margin-bottom: 30px;
+}
+.questions__item-btn--active {
+  color: #1f56d5;
+}
+.questions__item-btn--active path {
+  stroke: #1f56d5;
+}
+
+.questions__item-btn--active svg {
+  transform: rotate(45deg);
+  transition: all 0.4s;
+}
+
+.questions__right-logo {
+  margin-bottom: 27px;
+}
+
+.right__text {
+  margin-bottom: 19px;
+}
+
+.questions__info--gray {
+  margin: 20px 0;
+}
+
+.questions__btn {
+  background: #1f56d5;
+  border-radius: 60px;
+  padding: 13px 38px;
+  display: flex;
+  align-items: center;
+  border: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.questions__btn:hover {
+  cursor: pointer;
+  background: #4c7df0;
+}
+
+.questions__btn svg {
+  margin-left: 8px;
+}

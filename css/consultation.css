@@ -1,0 +1,79 @@
+.consultation {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(31, 86, 213, 1);
+}
+
+.consultation__title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+
+.consultation__info {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: center;
+  color: white;
+}
+
+.consultation__contoct {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.consultation__inputs {
+  background: #ffffff;
+  border-radius: 50px;
+  display: inline-flex;
+  overflow: hidden;
+  padding-left: 28px;
+  display: block;
+}
+
+.consultation__name {
+  padding: 15px 161px 18px 24px;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  outline: none;
+  line-height: 17px;
+  border-right: 1px solid #e7e7e7;
+}
+
+.consultation__number {
+  padding: 15px 123px 15px 15px;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  outline: none;
+  line-height: 17px;
+}
+
+.consultation__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  height: 50px;
+  width: 175px;
+  border-radius: 60px;
+  background: rgba(255, 202, 66, 1);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.consultation__btn:hover {
+  cursor: pointer;
+  background: #f7ca5b;
+}
+
+.consultation__btn svg {
+  margin-left: 13.35px;
+}

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/work.css">
+    <link rel="stylesheet" href="./css/result.css">
+    <link rel="stylesheet" href="./css/question.css">
+    <link rel="stylesheet" href="./css/consultation.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <title>Dastyor</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__inner">
+                <img src="./image/Logo.png" alt="Logo">
+                <ul class="header__info">
+                    <li><a class="header-link" href="#">Главная</a></li>
+                    <li><a class="header-link" href="#">Наши работы</a></li>
+                    <li><a class="header-link" href="#">Контакты</a></li>
+                    <button onclick="myBurger()" class="hamburger"><img src="./image/hamburger.svg" alt="hamburger"></button>
+                    <div id="burger">
+                      <ul>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Вопросы</a></li>
+                      </ul>
+                    </div>
+                </ul>
+                <ul class="header_language">
+                    <li><a class="ru" href="#">РУ</a></li>
+                    <li>/</li>
+                    <li><a class="uz" href="#">O`z</a></li>
+                </ul>
+                <div class="header__time__number">
+                    <div class="job-time">с 9:00 - 23:00</div>
+                    <span class="code-number">(+998)</span>
+                    <a href="tel:+998889999777" class="number-tel">88 999-97-77</a>
+                </div>
+                <button class="header__btn">Узнать цену</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="container">
+                <div class="main__container"> 
+                    <div class="main__container__info">
+                        <div class="main__info">
+                            <span class="main__title">Качественная чистка <br>ковров в Ташкенте</span> <br>
+                            <span class="main__title__info">Cтирка от 7000 сум/м кв. <br>+ антибактериальная обработка в подарок</span>
+                            <div class="discount_container">
+                            <div class="number-price">
+                                <div class="number">+998 XX XXX-XX-XX</div>
+                                <button class="main__price">Узнать цену<img src="" alt="">
+                                </button>
+                            </div>
+                            <div class="info-discount">
+                                <span class="info">Расчитайте стоимость <br>прямо сейчас и получите</span><br>
+                                <span class="discount">скидку -10%</span>
+                            </div>
+                        </div>
+                        <div class="usefuls">
+                            <div class="useful__1">
+                                <img src="./image/BlueShape.png" alt="">
+                                <img src="./image/CheckMark.png" alt="" style="position: absolute; margin-top: 32px; margin-left: -53px;">
+                                <span class="useful-info">гипоаллергенные <br>средства</span>
+                            </div>
+                            <div class="useful__2">
+                                <img src="./image/BlueShape.png" alt="" >
+                                <img src="./image/CheckMark.png" alt="" style="position: absolute; margin-top: 32px; margin-left: -53px;">
+                                <span class="useful-info">устроняем<br>99% грязи</span>
+                            </div>
+                            <div class="useful__3">
+                                <img src="./image/BlueShape.png" alt="">
+                                <img src="./image/CheckMark.png" alt="" style="position: absolute; margin-top: 32px; margin-left: -53px;">
+                                <span class="useful-info">скидки пенсионерам и<br>многодетным 5%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kuller">
+                        <img class="kuller__image" src="./image/Kuller.png" alt="Kuller">
+                        <img class="yellow-shape-img" src="./image/YellowShape.png" alt="YellowShape">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="container">
+            <div class="about__title">Как мы работаем</div>
+            <div class="yellow-line"></div>
+            <div class="about__info">За несколько загов мы превратим Ваши ковры как новые</div>
+            <div class="about__cards">
+                <div class="about__card">
+                    <div class="card__top">
+                        <img src="./image/about_card_1.svg" alt=""/>
+                        <span class="card__number">1</span>
+                    </div>
+                    <p class="card__title">Забираем ковер</p>
+                    <p class="card__info">Бесплатно забираем Ваш ковёр</p>
+                </div>
+                <div class="about__card">
+                    <div class="card__top">
+                        <img src="./image/about_card_2.svg" alt=""/>
+                        <span class="card__number">2</span>
+                    </div>
+                    <p class="card__title">Мойка</p>
+                    <p class="card__info">Почистка и мойка на немецком оборудовании</p>
+                </div>
+                <div class="about__card">
+                    <div class="card__top">
+                        <img src="./image/about_card_3.svg" alt=""/>
+                        <span class="card__number">3</span>
+                    </div>
+                    <p class="card__title">Сушка</p>
+                    <p class="card__info">Высушим без деформации и неприятного запаха</p>
+                </div>
+                <div class="about__card">
+                    <div class="card__top">
+                        <img src="./image/about_card_4.svg" alt=""/>
+                        <span class="card__number">4</span>
+                    </div>
+                    <p class="card__title">Доставка</p>
+                    <p class="card__info">Бесплатно доставим чистый и свежий ковёр в удобный для вас день</p>
+                </div>
+            </div>
+            <div class="about__box">
+                <h1>Скидка на первый заказ</h1>
+                <p>Оставте заявку и получите скидку до -10%</p>
+                <form class="about__form">
+                    <input type="text" placeholder="*Ваше имя" />
+                    <input type="text" placeholder="*Номер телефона" />
+                    <button>Отправить<img src="" alt="" /></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="result">
+        <div class="container">
+            <div class="result__title">Устраним сложные пятна, разводы, стойкие запахи и вредные микроорганизмы</div>
+            <div class="yellow-line"></div>
+            <div class="result__info">За несколько загов мы превратим Ваши ковры как новые</div>
+            <div class="result__cards">
+                <div class="result__card">
+                    <img src="./image/befor.png" alt="" />
+                </div>
+                <div class="result__card">
+                    <img src="./image/after.png" alt="" />
+                </div>
+            </div>
+            <div class="result__footer">
+              <span>Понравился результат?</span>
+              <button id="myBtnModal">Заказать бесплатный вывоз <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.98631 0.756779C8.69342 0.463886 8.21854 0.463886 7.92565 0.756779C7.63276 1.04967 7.63276 1.52455 7.92565 1.81744L8.98631 0.756779ZM14.169 7.00011L14.6993 7.53044C14.84 7.38979 14.919 7.19902 14.919 7.00011C14.919 6.8012 14.84 6.61043 14.6993 6.46978L14.169 7.00011ZM7.92565 12.1828C7.63276 12.4757 7.63276 12.9505 7.92565 13.2434C8.21854 13.5363 8.69342 13.5363 8.98631 13.2434L7.92565 12.1828ZM0.85498 6.25011C0.440767 6.25011 0.10498 6.5859 0.10498 7.00011C0.10498 7.41432 0.440767 7.75011 0.85498 7.75011V6.25011ZM14.152 7.75011C14.5662 7.75011 14.902 7.41432 14.902 7.00011C14.902 6.5859 14.5662 6.25011 14.152 6.25011V7.75011ZM7.92565 1.81744L13.6387 7.53044L14.6993 6.46978L8.98631 0.756779L7.92565 1.81744ZM13.6387 6.46978L7.92565 12.1828L8.98631 13.2434L14.6993 7.53044L13.6387 6.46978ZM0.85498 7.75011H14.152V6.25011H0.85498V7.75011Z" fill="black"/></svg>
+              </button>
+              <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <span class="modal__close"><svg width="10.67" height="10.67" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1.66699 1.646L12.333 12.31M1.66699 12.31L12.333 1.646" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </span>
+                  <h5 class="modal__title">Оставить отзыв</h5>
+                  <form class="modal__form" action="">
+                      <input class="modal__form__name" type="text" name="name" placeholder="*Ваше имя">
+                      <input class="modal__input__number" name="phone_number" type="text" placeholder="*Номер телефона">
+                      <button class="modal__form__btn">Отправить <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8.98631 0.756779C8.69342 0.463886 8.21854 0.463886 7.92565 0.756779C7.63276 1.04967 7.63276 1.52455 7.92565 1.81744L8.98631 0.756779ZM14.169 7.00011L14.6993 7.53044C14.84 7.38979 14.919 7.19902 14.919 7.00011C14.919 6.8012 14.84 6.61043 14.6993 6.46978L14.169 7.00011ZM7.92565 12.1828C7.63276 12.4757 7.63276 12.9505 7.92565 13.2434C8.21854 13.5363 8.69342 13.5363 8.98631 13.2434L7.92565 12.1828ZM0.85498 6.25011C0.440767 6.25011 0.10498 6.5859 0.10498 7.00011C0.10498 7.41432 0.440767 7.75011 0.85498 7.75011V6.25011ZM14.152 7.75011C14.5662 7.75011 14.902 7.41432 14.902 7.00011C14.902 6.5859 14.5662 6.25011 14.152 6.25011V7.75011ZM7.92565 1.81744L13.6387 7.53044L14.6993 6.46978L8.98631 0.756779L7.92565 1.81744ZM13.6387 6.46978L7.92565 12.1828L8.98631 13.2434L14.6993 7.53044L13.6387 6.46978ZM0.85498 7.75011H14.152V6.25011H0.85498V7.75011Z" fill="black"/></svg>
+                      </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="works">
+        <div class="container">
+            <div class="works__title">Наши работы</div>
+            <div class="yellow-line"></div>
+            <div class="works__info">Посмотрите какого результата можно добиться доверив нам</div>
+            <div class="works__cards">
+            <div class="works__card">
+              <img src="./image/image 5.png" alt="" />
+            </div>
+            <div class="works__card">
+              <img src="./image/image 5.png" alt="" />
+            </div>
+            <div class="works__card">
+              <img src="./image/image 5.png" alt="" />
+            </div>
+            <div class="works__card">
+              <img src="./image/image 5.png" alt="" />
+            </div>
+            <div class="works__card">
+              <img src="./image/image 5.png" alt="" />
+            </div>
+            <div class="works__card">
+              <img src="./image/image 5.png" alt="" />
+            </div>
+            <button class="works__btn">
+              Все работы
+              <svg
+                width="15"
+                height="14"
+                viewBox="0 0 15 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.98634 0.756657C8.69345 0.463764 8.21857 0.463764 7.92568 0.756657C7.63279 1.04955 7.63279 1.52442 7.92568 1.81732L8.98634 0.756657ZM14.169 6.99999L14.6993 7.53032C14.84 7.38967 14.919 7.1989 14.919 6.99999C14.919 6.80107 14.84 6.61031 14.6993 6.46966L14.169 6.99999ZM7.92568 12.1827C7.63279 12.4755 7.63279 12.9504 7.92568 13.2433C8.21857 13.5362 8.69345 13.5362 8.98634 13.2433L7.92568 12.1827ZM0.855011 6.24999C0.440797 6.24999 0.105011 6.58577 0.105011 6.99999C0.105011 7.4142 0.440797 7.74999 0.855011 7.74999V6.24999ZM14.152 7.74999C14.5662 7.74999 14.902 7.4142 14.902 6.99999C14.902 6.58577 14.5662 6.24999 14.152 6.24999V7.74999ZM7.92568 1.81732L13.6387 7.53032L14.6993 6.46966L8.98634 0.756657L7.92568 1.81732ZM13.6387 6.46966L7.92568 12.1827L8.98634 13.2433L14.6993 7.53032L13.6387 6.46966ZM0.855011 7.74999H14.152V6.24999H0.855011V7.74999Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="questions">
+          <div class="container">
+              <h3 class="questions__title">Часто задаваемые вопросы</h3>
+              <div class="questions__body">
+                  <div class="questions__left">
+                      <div class="questions__item">
+                          <button class="questions__item-btn">
+                              1. Какие виды ковров вы чистите?
+                              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M8.99898 1.43701L8.99998 8.97851M8.99998 8.97851L9.00098 16.519M8.99998 8.97851L1.45898 8.97801M8.99998 8.97851L16.541 8.97901" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </button>
+                            <div class="questions__item-text">
+                                <p>Мы выполняем чистку всех видов ковровых изделий</p>
+                            </div>
+                        </div>
+                        <div class="questions__item">
+                            <button class="questions__item-btn">
+                                2. Не изменится ли цена во время проведения работ?
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.99898 1.43701L8.99998 8.97851M8.99998 8.97851L9.00098 16.519M8.99998 8.97851L1.45898 8.97801M8.99998 8.97851L16.541 8.97901" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <div class="questions__item-text">
+                                <p>Многие компании идут на уловку, изначально называя заниженную стоимость и повышая ее во время проведения чистки. В нашем случае цена может измениться если вы закажите дополнительные услуги, например антибактериальную обработку, либо площадь ковра была указана неверно.</p>
+                            </div>
+                        </div>
+                        <div class="questions__item">
+                            <button class="questions__item-btn">
+                                3. Работаете с юридическими лицами?
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.99898 1.43701L8.99998 8.97851M8.99998 8.97851L9.00098 16.519M8.99998 8.97851L1.45898 8.97801M8.99998 8.97851L16.541 8.97901" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                <div class="questions__item-text">
+                  <p>
+                    Да, мы с удовольствием сотрудничаем с юридическими лицами.
+                  </p>
+                </div>
+              </div>
+              <div class="questions__item">
+                <button class="questions__item-btn">
+                    4. Даете гарантию?
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.99898 1.43701L8.99998 8.97851M8.99998 8.97851L9.00098 16.519M8.99998 8.97851L1.45898 8.97801M8.99998 8.97851L16.541 8.97901" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <div class="questions__item-text">
+                  <p>
+                    Любая компания может дать вам гарантию, что очистят всё на 100% и уберут все пятна. Только пятна бывают разные по происхождению и времени их нанесения на предмет мебели. Каждый человек должен понимать, что бывают пятна, которые уже невозможно убрать ничем, ни моющим пылесосом, ни самыми дорогими профессиональными химическими средствами.
+                  </p>
+                  <p>
+                    Опытные сотрудники компании сделают всё возможное с помощью чистящих средств от лучших мировых брендов. По статистике, 90% застарелых пятен мы полностью удаляем.
+                  </p>
+                </div>
+              </div>
+              <div class="questions__item">
+                  <button class="questions__item-btn">
+                    5. Безопасно для здоровья?
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.99898 1.43701L8.99998 8.97851M8.99998 8.97851L9.00098 16.519M8.99998 8.97851L1.45898 8.97801M8.99998 8.97851L16.541 8.97901" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <div class="questions__item-text">
+                  <p>
+                    Все средства, которые мы используем при проведении работ, абсолютно безопасны для здоровья человека, детей и животных. Имеют антиаллергенные свойства и нейтральный запах. При желании вы можете ознакомится с сертификатами качества, которые мастер предоставит по вашему требованию.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="questions__right">
+              <a href="#" class="questions__logo-link">
+                <img class="questions__right-logo" src="./imge/logo-blue.png" alt=""/>
+              </a>
+              <div class="right__text">
+                <p class="questions__info questions__info--black">
+                  Недорогая химчистка, стирка ковров с вывозом и доставкой, а
+                  также на дому, в офисе от компании «Dastyor». Работаем на рынке
+                  – пунктуальны, всегда соблюдаем технологии, используем
+                  безопасные чистящие средства и очень бережно относимся к
+                  изделиям. Услуги любой сложности в сфере мойки и химчистки
+                  ковров, ковровых изделий, всех видов мягкой мебели: диванов,
+                  кресел, пуфов, стульев с мягкой обивкой и т.д.
+                </p>
+                <p class="questions__info questions__info--gray">
+                  Химчистка ковров, стирка в Ташкенте по доступной цене под
+                  контролем технолога – безопасно, максимально эффективно.
+                  Используем только профессиональную химию. Устраняем загрязнения,
+                  запахи. Добавляем свежесть и… отличное настроение!
+                </p>
+                <p class="questions__info questions__info--blue">
+                  Делаем чистку ковров с малым, средним и высоким ворсом, работаем
+                  с коврами из шерсти, шелка и вискозы
+                </p>
+              </div>
+              <button class="questions__btn" id="questions__btn" onclick="questionsBtn()">
+                Подробнее
+                <svg
+                  width="15"
+                  height="14"
+                  viewBox="0 0 15 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.98634 0.756657C8.69345 0.463764 8.21857 0.463764 7.92568 0.756657C7.63279 
+                    1.04955 7.63279 1.52442 7.92568 1.81732L8.98634 0.756657ZM14.169 6.99999L14.6993 7.53032C14.84 
+                    7.38967 14.919 7.1989 14.919 6.99999C14.919 6.80107 14.84 6.61031 14.6993 6.46966L14.169
+                    6.99999ZM7.92568 12.1827C7.63279 12.4755 7.63279 12.9504 7.92568 13.2433C8.21857 
+                    13.5362 8.69345 13.5362 8.98634 13.2433L7.92568 12.1827ZM0.855011
+                    6.24999C0.440797 6.24999 0.105011 6.58577 0.105011 6.99999C0.105011 
+                    7.4142 0.440797 7.74999 0.855011 7.74999V6.24999ZM14.152 7.74999C14.5662 7.74999 14.902
+                    7.4142 14.902 6.99999C14.902 6.58577 14.5662 6.24999 14.152 6.24999V7.74999ZM7.92568 
+                    1.81732L13.6387 7.53032L14.6993 6.46966L8.98634 0.756657L7.92568 1.81732ZM13.6387 
+                    6.46966L7.92568 12.1827L8.98634 13.2433L14.6993 7.53032L13.6387 6.46966ZM0.855011 
+                    7.74999H14.152V6.24999H0.855011V7.74999Z" fill="white"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="consultation">
+        <div class="container">
+          <div class="consultation__title">Получите бесплатную консультацию</div>
+          <div class="consultation__info">Оставте ваши данные и наши эксперты свяжуться с вами.</div>
+          <div class="consultation__contoct">
+            <form class="consultation__inputs">
+              <input class="consultation__name" type="text" placeholder="*Ваше имя" />
+              <input class="consultation__number" type="text" placeholder="*Номер телефона"/>
+            </form>
+            <button class="consultation__btn">
+              Отправить
+              <svg
+                width="15"
+                height="14"
+                viewBox="0 0 15 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.98634 0.756657C8.69345 0.463764 8.21857 0.463764 7.92568 0.756657C7.63279 
+                  1.04955 7.63279 1.52442 7.92568 1.81732L8.98634 0.756657ZM14.169 6.99999L14.6993 7.53032C14.84 
+                  7.38967 14.919 7.1989 14.919 6.99999C14.919 6.80107 14.84 6.61031 14.6993 6.46966L14.169
+                  6.99999ZM7.92568 12.1827C7.63279 12.4755 7.63279 12.9504 7.92568 13.2433C8.21857 
+                  13.5362 8.69345 13.5362 8.98634 13.2433L7.92568 12.1827ZM0.855011
+                  6.24999C0.440797 6.24999 0.105011 6.58577 0.105011 6.99999C0.105011 
+                  7.4142 0.440797 7.74999 0.855011 7.74999V6.24999ZM14.152 7.74999C14.5662 7.74999 14.902
+                  7.4142 14.902 6.99999C14.902 6.58577 14.5662 6.24999 14.152 6.24999V7.74999ZM7.92568 
+                  1.81732L13.6387 7.53032L14.6993 6.46966L8.98634 0.756657L7.92568 1.81732ZM13.6387 
+                  6.46966L7.92568 12.1827L8.98634 13.2433L14.6993 7.53032L13.6387 6.46966ZM0.855011 
+                  7.74999H14.152V6.24999H0.855011V7.74999Z" fill="black"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="footer__container">
+            <div class="footer__logo">
+              <a href="#"><img src="./image/Logo.png" alt="Logo"></a>
+              <ul class="footer__item">
+                <li class="footer__link" style="margin-right: 20px;"><a href="#">Блог</a></li>
+                <li class="footer__link" style="margin-right: 20px;"><a href="#">Вопросы</a></li>
+                <li class="footer__link"><a href="#">Наши работы</a></li>
+              </ul>
+            </div>
+            <div class="footer__messenger">
+              <div class="footer__instagram">
+                <div class="instagram__logo"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.5862 0H5.41381C2.42858 0 0 2.42858 0 5.41381V14.5863C0 17.5714 2.42858 20 5.41381 20H14.5863C17.5714 20 20 17.5714 20 14.5863V5.41381C20 2.42858 17.5714 0 14.5862 0V0ZM18.8275 14.5863C18.8275 16.9249 16.9249 18.8275 14.5862 18.8275H5.41381C3.0751 18.8275 1.17248 16.9249 1.17248 14.5863V5.41381C1.17248 3.0751 3.0751 1.17248 5.41381 1.17248H14.5863C16.9249 1.17248 18.8275 3.0751 18.8275 5.41381V14.5863Z" fill="white"/>
+                  <path d="M9.99999 4.53125C6.98455 4.53125 4.5314 6.9844 4.5314 9.99984C4.5314 13.0153 6.98455 15.4684 9.99999 15.4684C13.0154 15.4684 15.4686 13.0153 15.4686 9.99984C15.4686 6.9844 13.0154 4.53125 9.99999 4.53125V4.53125ZM9.99999 14.2959C7.63122 14.2959 5.70389 12.3688 5.70389 9.99984C5.70389 7.63107 7.63122 5.70373 9.99999 5.70373C12.3689 5.70373 14.2961 7.63107 14.2961 9.99984C14.2961 12.3688 12.3689 14.2959 9.99999 14.2959V14.2959Z" fill="white"/>
+                  <path d="M15.5993 2.58936C14.7082 2.58936 13.9834 3.3143 13.9834 4.20526C13.9834 5.09637 14.7082 5.82131 15.5993 5.82131C16.4904 5.82131 17.2154 5.09637 17.2154 4.20526C17.2154 3.31415 16.4904 2.58936 15.5993 2.58936ZM15.5993 4.64868C15.3549 4.64868 15.1559 4.4497 15.1559 4.20526C15.1559 3.96066 15.3549 3.76184 15.5993 3.76184C15.8439 3.76184 16.0429 3.96066 16.0429 4.20526C16.0429 4.4497 15.8439 4.64868 15.5993 4.64868Z" fill="white"/>
+                  </svg>
+                  </div>
+                <div class="instagram__title">
+                  <span>Instagram:</span>
+                  <a href="#">@bisyoruz</a>
+                </div>
+              </div>
+              <div class="footer__telegram">
+                <div class="telegram__logo"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19.8289 0.172624C19.6631 0.00684292 19.4144 -0.0441336 19.197 0.0428976L0.368828 7.57407C0.153399 7.66024 0.00914132 7.86539 0.000860091 8.09731C-0.00738208 8.32918 0.121993 8.54407 0.330742 8.64532L7.75526 12.2461L11.3561 19.6707C11.4543 19.8732 11.6594 20.0009 11.8832 20.0009C11.8901 20.0009 11.8971 20.0008 11.9041 20.0005C12.136 19.9923 12.3412 19.848 12.4273 19.6326L19.9586 0.804577C20.0456 0.586921 19.9946 0.338366 19.8289 0.172624ZM2.03539 8.16961L16.9817 2.19114L8.07432 11.0984L2.03539 8.16961ZM11.8318 17.9661L8.90295 11.927L17.8104 3.01973L11.8318 17.9661Z" fill="white"/>
+                  </svg>
+                </div>
+                <div class="telegram__title">
+                  <span>Telegram:</span>
+                  <a href="#"> @bisyor_uz</a>
+                </div>
+              </div>
+            </div>
+            <div class="footer__contact__address">
+              <div class="footer__contact">
+                <p>Связаться:</p>
+                <span>(+998)</span>
+                <a href="tel:88 999 9777">88 999 9777</a>
+              </div>
+              <div class="footer__addess">
+                <p>Адрес:</p>
+                <span>г.Ташкент, Чилназар-11, 25</span>
+              </div>
+            </div>
+            <div class="footer__info">
+              <button  id="myBtnModal">Заказать бесплатный вывоз
+                <svg
+                  width="15"
+                  height="14"
+                  viewBox="0 0 15 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.98634 0.756657C8.69345 0.463764 8.21857 0.463764 7.92568 0.756657C7.63279 
+                    1.04955 7.63279 1.52442 7.92568 1.81732L8.98634 0.756657ZM14.169 6.99999L14.6993 7.53032C14.84 
+                    7.38967 14.919 7.1989 14.919 6.99999C14.919 6.80107 14.84 6.61031 14.6993 6.46966L14.169
+                    6.99999ZM7.92568 12.1827C7.63279 12.4755 7.63279 12.9504 7.92568 13.2433C8.21857 
+                    13.5362 8.69345 13.5362 8.98634 13.2433L7.92568 12.1827ZM0.855011
+                    6.24999C0.440797 6.24999 0.105011 6.58577 0.105011 6.99999C0.105011 
+                    7.4142 0.440797 7.74999 0.855011 7.74999V6.24999ZM14.152 7.74999C14.5662 7.74999 14.902
+                    7.4142 14.902 6.99999C14.902 6.58577 14.5662 6.24999 14.152 6.24999V7.74999ZM7.92568 
+                    1.81732L13.6387 7.53032L14.6993 6.46966L8.98634 0.756657L7.92568 1.81732ZM13.6387 
+                    6.46966L7.92568 12.1827L8.98634 13.2433L14.6993 7.53032L13.6387 6.46966ZM0.855011 
+                    7.74999H14.152V6.24999H0.855011V7.74999Z" fill="black"
+                  />
+                </svg>
+              </button>
+              <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <span class="modal__close"><svg width="10.67" height="10.67" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1.66699 1.646L12.333 12.31M1.66699 12.31L12.333 1.646" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </span>
+                  <h5 class="modal__title">Оставить отзыв</h5>
+                  <form class="modal__form" action="">
+                      <input class="modal__form__name" type="text" name="name" placeholder="*Ваше имя">
+                      <input class="modal__input__number" name="phone_number" type="text" placeholder="*Номер телефона">
+                      <button class="modal__form__btn">Отправить <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8.98631 0.756779C8.69342 0.463886 8.21854 0.463886 7.92565 0.756779C7.63276 1.04967 7.63276 1.52455 7.92565 1.81744L8.98631 0.756779ZM14.169 7.00011L14.6993 7.53044C14.84 7.38979 14.919 7.19902 14.919 7.00011C14.919 6.8012 14.84 6.61043 14.6993 6.46978L14.169 7.00011ZM7.92565 12.1828C7.63276 12.4757 7.63276 12.9505 7.92565 13.2434C8.21854 13.5363 8.69342 13.5363 8.98631 13.2434L7.92565 12.1828ZM0.85498 6.25011C0.440767 6.25011 0.10498 6.5859 0.10498 7.00011C0.10498 7.41432 0.440767 7.75011 0.85498 7.75011V6.25011ZM14.152 7.75011C14.5662 7.75011 14.902 7.41432 14.902 7.00011C14.902 6.5859 14.5662 6.25011 14.152 6.25011V7.75011ZM7.92565 1.81744L13.6387 7.53044L14.6993 6.46978L8.98631 0.756779L7.92565 1.81744ZM13.6387 6.46978L7.92565 12.1828L8.98631 13.2434L14.6993 7.53044L13.6387 6.46978ZM0.85498 7.75011H14.152V6.25011H0.85498V7.75011Z" fill="black"/></svg>
+                      </button>
+                  </form>
+                </div>
+              
+              </div>
+              <div>Оставте заявку и получите <br> скидку до -10%</div>
+            </div>
+          </div>
+          <div class="footer__line"></div>
+        </div>
+      </footer>
+  
+      
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
